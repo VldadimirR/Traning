@@ -133,3 +133,51 @@
 # print_items2(list = [2, 4, 6, 7])
 
 
+
+
+
+# # Проверка наличия имени в словаре
+# voted = {}
+# def check_voter(name):
+#     if voted.get(name):
+#         print("kick them out!")
+#     else:
+#         voted[name] = True
+#         print("let them vote")
+
+# check_voter("tom")
+# check_voter("mike")
+# check_voter("mike")
+
+
+
+
+
+##### Нужны графы
+# from collections import deque 
+
+# def person_is_seller(name):
+#     return name[-1] == "m"
+
+# def search(name):
+
+#     search_queue = deque()
+#     search_queue += graph[name]
+#     searched = []
+#     while search_queue:
+#         person = search_queue.popleft()
+#         if not person in searched:
+#             if person_is_seller(person):
+#                 print(person + "is a mango seller!")
+#                 return True
+#             else:
+#                 search_queue += graph[person]
+#                 searched.append(person)
+#     return False
+
+# search("you")
+
+
+
+
+
